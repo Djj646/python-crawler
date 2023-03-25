@@ -2,7 +2,7 @@
 Author: Dong Jiajun 2070928523@qq.com
 Date: 2023-03-02 16:04:52
 LastEditors: Dong Jiajun 2070928523@qq.com
-LastEditTime: 2023-03-23 22:34:30
+LastEditTime: 2023-03-25 20:55:13
 FilePath: \WebCrawler\main.py
 Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 '''
@@ -63,7 +63,7 @@ def autoWrite(url_survey, trytime=2):
         trytime (int): 问卷数量
     """
     global start_driver
-    answer=[["董佳俊", "3200102146", "13588034947"], ["王潇", "3210101769", "18004847579"]]
+    answer=[["XXX", "320XXX", "110"], ["XX", "320XXX", "120"]]
     
     while not is_open(start_driver):
         time.sleep(0.4)
